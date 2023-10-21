@@ -1,4 +1,4 @@
-function BlogList({blog:posts, handleDelete}) {
+function BlogList({posts, handleDelete}) {
     return ( 
         <div className="blog">
             {posts.map((post) => (
